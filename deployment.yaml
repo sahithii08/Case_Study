@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: medicinereminder
-        image: <your_dockerhub_username>/medicinereminder:latest
+        image: sahithi2108/medicinereminder:latest
         ports:
         - containerPort: 5000
