@@ -24,4 +24,13 @@ pipeline {
             }
         }
     }
+    post{
+        success{
+            echo 'Pipeline completed scucessfull!'
+
+        }
+        failure{
+            echo "Pipeline failed.Please check the logs."
+        }
+    }
 }
