@@ -17,3 +17,7 @@ spec:
         image: sahithi2108/medicinereminder:latest
         ports:
         - containerPort: 5000
+
+
+
+        
